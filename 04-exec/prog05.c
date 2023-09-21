@@ -41,8 +41,9 @@ int main() {
 		puts("CHILD: exec...");
 		execlp("./prog02b", "prog02b", NULL); // this will not return on success!
 		// comment the above execlp and uncomment one of the following to try other programs
-		// execlp("cat", "cat", "/etc/release", NULL);
-		// execlp("echo", "echo", "hello, world!", NULL);
+		//execlp("ls", "ls", "-l", NULL);
+		//execlp("cat", "cat", "/etc/os-release", NULL);
+		//execlp("echo", "echo", "hello, world!", NULL);
 
 		puts(
 			"=======================\n"
