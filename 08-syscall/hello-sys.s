@@ -1,5 +1,6 @@
 	.text
 	.global _start
+	
 _start:
 	# write(1, msg, 14);
 	movq $14, %rdx
